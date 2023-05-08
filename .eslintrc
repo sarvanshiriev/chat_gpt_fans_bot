@@ -1,0 +1,22 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": ["airbnb-base", "prettier", "plugin:node/recommended"],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": ["error", { "endOfLine": "auto" }],
+        "no-var": "off",
+        "no-param-reassign": "off",
+        "prefer-rest-params": "off",
+        "object-shorthand": "off",
+        "prefer-template": "off",
+        "vars-on-top": "off",
+        "prefer-destructuring": "off",
+        "prefer-arrow-callback": "off",
+        "func-names": "off",
+        "no-underscore-dangle": "off",
+        "no-console": "warn",
+        "import/prefer-default-export": "off"
+    }
+}
