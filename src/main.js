@@ -5,6 +5,7 @@ import config from 'config';
 import { ogg } from './ogg.js';
 import { openai } from './openai.js';
 
+console.log(config.get('TEST_ENV'))
 const INITIAL_SESSION = {
     messages: [],
 };
